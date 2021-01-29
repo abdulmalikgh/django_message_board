@@ -1,0 +1,7 @@
+<h1> Message Board Homepage </p>
+
+{% for post in posts %}
+    <ul>
+        <li> {{ post.text }} </li>
+    </ul>
+{% endfor %}
